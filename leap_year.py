@@ -20,7 +20,7 @@ def main():
                 else:
                     print("{} is not a leap year".format(year_str))
             else:
-                print("{} is not a leap year".format(year_str))
+                print("{} is a leap year".format(year_str))
         else:
             print("{} is not a leap year".format(year_str))
     except ValueError:
